@@ -194,7 +194,6 @@ def _generate(amount, text_start, text_type):
     response.headers['Cache-Control'] = 'no-cache'
     response.headers['X-Powered-By'] = 'Flask/%s, loremipsum/%s' % (
             flask_version, loremipsum_version)
-    pypsum.logger.debug(sys.version_info)
     response.headers['X-Runtime'] = '%s.%s.%s-%s%s' % tuple(sys.version_info)
     return response
 

@@ -1,5 +1,3 @@
-from application import pypsum
-# import api
 __author__ = "Luca De Vitis <luca@monkeython.com>"
 __version__ = '0.1'
 __copyright__ = "2011, %s " % __author__
@@ -34,5 +32,4 @@ __classifiers__ = [
     'Operating System :: OS Independent',
     'Topic :: Internet :: WWW/HTTP' ]
 
-if __name__ == '__main__':
-    pypsum.run(host='0.0.0.0')
+__all__ = ['client', 'application']
