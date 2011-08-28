@@ -4,4 +4,8 @@
 build
 *.DS_Store
 dist
-virtual*
+bin
+eggs
+parts
+develop-eggs
+bootstrap.py

@@ -1,3 +1,4 @@
+from __future__ import with_statement
 from setuptools import setup
 import sys
 import os
@@ -32,5 +33,5 @@ application = {
     'test_suite': 'tests.suite' }
 
 if __name__ == '__main__':
-    setup(application)
+    setup(**application)
 
