@@ -1,5 +1,5 @@
 __author__ = "Luca De Vitis <luca@monkeython.com>"
-__version__ = '0.2'
+__version__ = '0.3.0'
 __copyright__ = "2011, %s " % __author__
 __license__ = """
    Copyright (C) %s

@@ -27,10 +27,10 @@ application = {
     'long_description': long_description,
     'classifiers': pkg.__classifiers__,
     'packages': [name],
-    'requires': ['loremipsum', 'Flask', 'reqests' ],
+    'install_requires': ['loremipsum', 'Flask', 'requests' ],
     'include_package_data': True,
     'exclude_package_data': {name: ["*.rst", "docs", "tests"]},
-    'test_suite': 'tests.suite' }
+    'test_suite': 'tests.suite'}
 
 if __name__ == '__main__':
     setup(**application)

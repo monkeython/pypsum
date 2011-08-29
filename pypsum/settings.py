@@ -30,5 +30,5 @@ class Debug(Testing):
     DEBUG = True
 
 class AppSpot(object):
-    pass
+    SERVER_NAME = 'pypsum.appspot.com'
 
